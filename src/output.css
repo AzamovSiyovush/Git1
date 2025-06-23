@@ -558,8 +558,16 @@ video {
   margin: auto;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .max-w-\[\] {
@@ -608,6 +616,10 @@ video {
 
 .gap-3 {
   gap: 0.75rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .self-end {
@@ -717,6 +729,14 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
   .lg\:w-\[\] {
     width: ;
   }
@@ -727,5 +747,13 @@ video {
 
   .lg\:max-w-\[1200px\] {
     max-width: 1200px;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:gap-0 {
+    gap: 0px;
   }
 }
