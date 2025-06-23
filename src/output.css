@@ -594,6 +594,10 @@ video {
   max-width: 350px;
 }
 
+.max-w-\[\] {
+  max-width: ;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -747,6 +751,10 @@ video {
   font-size: 60px;
 }
 
+.text-\[13px\] {
+  font-size: 13px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -764,6 +772,15 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[\#0075FF\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 117 255 / var(--tw-text-opacity, 1));
 }
 
 .shadow-\[0px_0px_30px_4px_\#14142B0A\] {
@@ -791,6 +808,10 @@ video {
 
   .lg\:w-\[40\%\] {
     width: 40%;
+  }
+
+  .lg\:w-\[\] {
+    width: ;
   }
 
   .lg\:max-w-\[1200px\] {
